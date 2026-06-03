@@ -1,0 +1,15 @@
+columna,descripcion,tipo
+customer_id,Identificador único del cliente,texto
+tenure_months,Antigüedad del cliente en meses,numérico entero
+monthly_spend,Gasto mensual aproximado del cliente,numérico continuo
+support_tickets,Cantidad de tickets de soporte,numérico entero
+late_payments,Número de pagos atrasados,numérico entero
+num_logins_30d,Número de accesos en los últimos 30 días,numérico entero
+satisfaction_score,Nivel de satisfacción del cliente (1 a 10),numérico continuo
+streaming_hours_week,Horas promedio de uso por semana,numérico continuo
+contract_type,Tipo de contrato del cliente,categórico
+payment_method,Método de pago principal,categórico
+region,Zona geográfica o comercial,categórico
+uses_mobile_app,"Uso de aplicación móvil (0=no, 1=sí)",binario
+uses_addon_security,"Uso de servicio adicional de seguridad (0=no, 1=sí)",binario
+churn,"Variable objetivo: abandono del cliente (0=no, 1=sí)",binario
